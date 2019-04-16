@@ -1,4 +1,6 @@
+from new_process import createDataSet, getData, preparedData
 import params
+from model import Transformer
 from torchtext import data
 import torch
 import time
